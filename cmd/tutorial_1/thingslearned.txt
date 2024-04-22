@@ -1,3 +1,22 @@
+->about variables(int32,float32):how to declare and use them
+->about constants:same as variables
+->about conditionals and functions
+###simple function example is###
+func functionName(parameter1,paramter2,...) (return dataype:eg int,int,int){}
+-->above function takes 2 parameters and return 3 integers
+->about arrays, slices and maps
+$$array:we know
+    =>var arrname [size]datatype
+    =>var arrname [size]datatype = [size]datatype{data1,data2,data3}
+    =>arrname :=[size]datatype{data1,dat2,data3,.....}
+    =>arrname:=[...]datatype{data1,data2,data3,.....}
+$$slices:special kind of arrays
+$$maps:key-value pairs
+$$we learned about errors too
+
+//todo:remaining list remaining overall go is fun
+
+
 package main
 
 func main() {
@@ -169,6 +188,8 @@ func main() {
 	// for i := 0; i < 10; i++ {
 	// 	fmt.Println(i)
 	// }
+
+	
 
 }
 
