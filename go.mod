@@ -1,3 +1,3 @@
-module go_stuffs
+module github.com/konsole-log/GO-STUFFS
 
-go 1.22.2
+go 1.26.4
