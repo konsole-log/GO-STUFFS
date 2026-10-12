@@ -9,3 +9,4 @@ func Repeat(character string, total int) string {
 	}
 	return repeated.String()
 }
+
